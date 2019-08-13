@@ -1,0 +1,13 @@
+<template name="header">
+    <view class="top-navbar"><image src="/images/logo.jpg"></image></view>
+    <view class="bg-primary">
+        <icon  type="info"  class="small-default" iconSize="20" color="#fff" size="14" />
+        <text catchtap="makePhoneCall" data-phonenumber="17506182888">拨打咨询电话-175-0618-2888</text>
+    </view>
+    <view class="lunbo">
+        <swiper indicator-dots="true"   autoplay="true" interval="5000" duration="1000">
+                <swiper-item><image src=https://m.szhqzl.cn/mobile/images/1.jpg" class="slide-image" /></swiper-item>
+                <swiper-item><image src=https://m.szhqzl.cn/mobile/images/2.jpg" class="slide-image" /></swiper-item>
+        </swiper>
+    </view>
+</template>

@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<import src="/templets/header.wxml" />
+<import src="/templets/footer.wxml" />
+<import src="/templets/liuyan.wxml" />
+<view class="container">
+    <template is="header"  />
+    <view class="bg-primary">
+        <icon  type="info"  class="small-default" iconSize="20" color="#fff" size="14" />
+        <text>12T-500T全品类吊车租赁服务</text>
+    </view>
+    <view class="viewst_middle">
+        <view class="text_centre">
+            <view>
+                <view class="li-target">
+                    <view class="a-target">
+                        <view class="img_show"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/ac609dc8d70b64bba24381aa5a539a95.jpg" class="img_viewst"></image></view>
+                        <view class="cont">
+                            <view class="tit_1">吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都</view>
+                            <view class="info">吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都</view>
+                        </view>
+                    </view>
+                </view>
+                <view class="li-target">
+                    <view class="a-target">
+                        <view class="img_show"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/ac609dc8d70b64bba24381aa5a539a95.jpg" class="img_viewst"></image></view>
+                        <view class="cont">
+                            <view class="tit_1">吊车操作的一些小技巧需知你都</view>
+                            <view class="info">吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都</view>
+                        </view>
+                    </view>
+                </view>
+                <view class="li-target">
+                    <view class="a-target">
+                        <view class="img_show"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/ac609dc8d70b64bba24381aa5a539a95.jpg" class="img_viewst"></image></view>
+                        <view class="cont">
+                            <view class="tit_1">吊车操作的一些小技巧需知你都</view>
+                            <view class="info">吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <template is="liuyan"  data="{{showModal:showModal}}" />
+    <!--新闻end-->
+    <template is="footer"  />
+</view>

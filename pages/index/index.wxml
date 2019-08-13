@@ -1,0 +1,227 @@
+<!--index.wxml-->
+<import src="/templets/header.wxml" />
+<import src="/templets/footer.wxml" />
+<import src="/templets/liuyan.wxml" />
+<view class="container">
+    <template is="header"  />
+    <view class="nav-side">
+        <view class="smalllist clearfix">
+            <view class="small-box"><navigator url="/pages/listarticle/listarticle"> <image src="/images/icon8.png"></image><view>公司简介</view></navigator></view>
+            <view class="small-box"><navigator url="/pages/article/article"> <image src="/images/icon1.png"></image><view>服务承诺</view></navigator></view>
+            <view class="small-box"><navigator url="/pages/indexarticle/indexarticle"> <image src="/images/icon3.png"></image><view>品牌优势</view></navigator></view>
+            <view class="small-box rightbox"><navigator url="/pages/listarticle/listarticle"> <image src="/images/icon2.png"></image><view>施工案例</view></navigator></view>
+            <view class="small-box rightbox"><navigator url="/pages/listarticle/listarticle"> <image src="/images/icon5.png"></image><view>服务支持</view></navigator></view>
+            <view class="small-box rightbox"><navigator url="/pages/listarticle/listarticle"> <image src="/images/icon4.png"></image><view>产品中心</view></navigator></view>
+            <view class="small-box rightbox"><navigator url="/pages/listarticle/listarticle"> <image src="/images/icon6.png"></image><view>租赁资讯</view></navigator></view>
+            <view class="small-box rightbox"><navigator url="/pages/listarticle/listarticle"> <image src="/images/icon7.png"></image><view>租赁流程</view></navigator></view>
+            <view class="small-box rightbox"><navigator url="/pages/listarticle/listarticle"> <image src="/images/ganxi.png"></image><view>租赁问答</view></navigator></view>
+            <view class="small-box rightbox"><navigator url="/pages/listarticle/listarticle"> <image src="/images/ganxi.png"></image><view>联系我们</view></navigator></view>
+        </view>
+    </view>
+    <view class="ys">
+        <view class="bg-primary">
+            <icon  type="info"  class="small-default" iconSize="20" color="#fff" size="14" />
+            <text>12T-500T全品类吊车租赁服务</text>
+        </view>
+        <view class="im-container">
+            <view class="imageflx"> <image src="/images/ys01.jpg"></image><view class="h5">25T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
+            <view class="imageflx"> <image src="/images/ys01.jpg"></image><view class="h5">35T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
+            <view class="imageflx"> <image src="/images/ys01.jpg"></image><view class="h5">55T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
+        </view>
+        <view class="im-container">
+            <view class="imageflx"> <image src="/images/ys01.jpg"></image><view class="h5">70T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
+            <view class="imageflx"> <image src="/images/ys01.jpg"></image><view class="h5">80T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
+            <view class="imageflx"> <image src="/images/ys01.jpg"></image><view class="h5">120T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
+        </view>
+    </view>
+    <view class="cp-show">
+        <view class="bg-primary">
+            <icon  type="info"  class="small-default" iconSize="20" color="#fff" size="14" />
+            <text> 苏州周边地区施工案例</text>
+        </view>
+        <view class="cp-show-list clearfix">
+            <view>
+                <view catchtap="toArticle" data-index="1">
+                    <image src="https://www.szhqzl.cn/frontend/images/1-1P619154344528.png"></image>
+                </view>
+                <view class="cp-font">
+                    <text catchtap="toArticle" data-index="{{shebeiarticle.id}}">苏州皓全施工案例1</text>
+                </view>
+            </view>
+            <view>
+                <view catchtap="toArticle" data-index="1">
+                    <image src="https://www.szhqzl.cn/frontend/images/1-1P619154344528.png"></image>
+                </view>
+                <view class="cp-font">
+                    <text catchtap="toArticle" data-index="{{shebeiarticle.id}}">苏州皓全施工案例1</text>
+                </view>
+            </view>
+            <view>
+                <view catchtap="toArticle" data-index="1">
+                    <image src="https://www.szhqzl.cn/frontend/images/1-1P619154344528.png"></image>
+                </view>
+                <view class="cp-font">
+                    <text catchtap="toArticle" data-index="{{shebeiarticle.id}}">苏州皓全施工案例1</text>
+                </view>
+            </view>
+            <view>
+                <view catchtap="toArticle" data-index="1">
+                    <image src="https://www.szhqzl.cn/frontend/images/1-1P619154344528.png"></image>
+                </view>
+                <view class="cp-font">
+                    <text catchtap="toArticle" data-index="{{shebeiarticle.id}}">苏州皓全施工案例1</text>
+                </view>
+            </view>
+            <view>
+                <view catchtap="toArticle" data-index="1">
+                    <image src="https://www.szhqzl.cn/frontend/images/1-1P619154344528.png"></image>
+                </view>
+                <view class="cp-font">
+                    <text catchtap="toArticle" data-index="{{shebeiarticle.id}}">苏州皓全施工案例1</text>
+                </view>
+            </view>
+            <view>
+                <view catchtap="toArticle" data-index="1">
+                    <image src="https://www.szhqzl.cn/frontend/images/1-1P619154344528.png"></image>
+                </view>
+                <view class="cp-font">
+                    <text catchtap="toArticle" data-index="{{shebeiarticle.id}}">苏州皓全施工案例1</text>
+                </view>
+            </view>
+
+        </view>
+    </view>
+    <!--新闻-->
+    <view class="news clearfix">
+        <view class="favor-header-bar clearfix">
+            <view class="tabs swiper-tab">
+                <view class="tab-inlne {{currentTab==0?'on':''}}"  data-current="0" bindtap="clickTab" >租赁费用</view>
+                <view class="tab-inlne {{currentTab==1?'on':''}}"  data-current="1" bindtap="clickTab" >租赁指南</view>
+                <view class="tab-inlne {{currentTab==2?'on':''}}"  data-current="2" bindtap="clickTab" >租赁服务</view>
+            </view>
+        </view>
+        <view>
+            <swiper   current="{{currentTab}}" duration="300"  bindchange="swiperTab">
+                <swiper-item>
+                    <view class="zonghe-con">
+                        <view class="zonghe-con-list clearfix">
+                            <view class="imgcontainer"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/5de0e1fe18d2e44aedf96c85657e6340.jpg"></image></view>
+                            <view class="zonghe-right">
+                                <text class="a">苏州吊车出租多少钱，苏州吊车租赁是怎样收取费用的</text>
+                                <text class="zonghe-con-font"> 苏州起重吊装行业在平时中能够好的为广大市民提供方便,但是在行业中也存有很多的定价乱象,那么,苏州吊车租赁有哪些价格乱象呢,苏州吊车租聘实际价格是多少呢?详细情况的话请大家认真阅读下文...</text>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="zonghe-con">
+                        <view class="zonghe-con-list clearfix">
+                            <view class="imgcontainer"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/5de0e1fe18d2e44aedf96c85657e6340.jpg"></image></view>
+                            <view class="zonghe-right">
+                                <text class="a">苏州吊车出租多少钱，苏州吊车租赁是怎样收取费用的</text>
+                                <text class="zonghe-con-font"> 苏州起重吊装行业在平时中能够好的为广大市民提供方便,但是在行业中也存有很多的定价乱象,那么,苏州吊车租赁有哪些价格乱象呢,苏州吊车租聘实际价格是多少呢?详细情况的话请大家认真阅读下文...</text>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="zonghe-con">
+                        <view class="zonghe-con-list clearfix">
+                            <view class="imgcontainer"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/5de0e1fe18d2e44aedf96c85657e6340.jpg"></image></view>
+                            <view class="zonghe-right">
+                                <text class="a">苏州吊车出租多少钱，苏州吊车租赁是怎样收取费用的</text>
+                                <text class="zonghe-con-font"> 苏州起重吊装行业在平时中能够好的为广大市民提供方便,但是在行业中也存有很多的定价乱象,那么,苏州吊车租赁有哪些价格乱象呢,苏州吊车租聘实际价格是多少呢?详细情况的话请大家认真阅读下文...</text>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="zonghe-con">
+                        <view class="zonghe-con-list clearfix">
+                            <view class="imgcontainer"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/5de0e1fe18d2e44aedf96c85657e6340.jpg"></image></view>
+                            <view class="zonghe-right">
+                                <text class="a">苏州吊车出租多少钱，苏州吊车租赁是怎样收取费用的</text>
+                                <text class="zonghe-con-font"> 苏州起重吊装行业在平时中能够好的为广大市民提供方便,但是在行业中也存有很多的定价乱象,那么,苏州吊车租赁有哪些价格乱象呢,苏州吊车租聘实际价格是多少呢?详细情况的话请大家认真阅读下文...</text>
+                            </view>
+                        </view>
+                    </view>
+                </swiper-item>
+                <swiper-item>
+                    <view class="zonghe-con">
+                        <view class="zonghe-con-list clearfix">
+                            <view class="imgcontainer"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/5de0e1fe18d2e44aedf96c85657e6340.jpg"></image></view>
+                            <view class="zonghe-right">
+                                <text class="a">苏州吊车出租多少钱，苏州吊车租赁是怎样收取费用的</text>
+                                <text class="zonghe-con-font"> 苏州起重吊装行业在平时中能够好的为广大市民提供方便,但是在行业中也存有很多的定价乱象,那么,苏州吊车租赁有哪些价格乱象呢,苏州吊车租聘实际价格是多少呢?详细情况的话请大家认真阅读下文...</text>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="zonghe-con">
+                        <view class="zonghe-con-list clearfix">
+                            <view class="imgcontainer"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/5de0e1fe18d2e44aedf96c85657e6340.jpg"></image></view>
+                            <view class="zonghe-right">
+                                <text class="a">苏州吊车出租多少钱，苏州吊车租赁是怎样收取费用的</text>
+                                <text class="zonghe-con-font"> 苏州起重吊装行业在平时中能够好的为广大市民提供方便,但是在行业中也存有很多的定价乱象,那么,苏州吊车租赁有哪些价格乱象呢,苏州吊车租聘实际价格是多少呢?详细情况的话请大家认真阅读下文...</text>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="zonghe-con">
+                        <view class="zonghe-con-list clearfix">
+                            <view class="imgcontainer"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/5de0e1fe18d2e44aedf96c85657e6340.jpg"></image></view>
+                            <view class="zonghe-right">
+                                <text class="a">苏州吊车出租多少钱，苏州吊车租赁是怎样收取费用的</text>
+                                <text class="zonghe-con-font"> 苏州起重吊装行业在平时中能够好的为广大市民提供方便,但是在行业中也存有很多的定价乱象,那么,苏州吊车租赁有哪些价格乱象呢,苏州吊车租聘实际价格是多少呢?详细情况的话请大家认真阅读下文...</text>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="zonghe-con">
+                        <view class="zonghe-con-list clearfix">
+                            <view class="imgcontainer"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/5de0e1fe18d2e44aedf96c85657e6340.jpg"></image></view>
+                            <view class="zonghe-right">
+                                <text class="a">苏州吊车出租多少钱，苏州吊车租赁是怎样收取费用的</text>
+                                <text class="zonghe-con-font"> 苏州起重吊装行业在平时中能够好的为广大市民提供方便,但是在行业中也存有很多的定价乱象,那么,苏州吊车租赁有哪些价格乱象呢,苏州吊车租聘实际价格是多少呢?详细情况的话请大家认真阅读下文...</text>
+                            </view>
+                        </view>
+                    </view>
+                </swiper-item>
+                <swiper-item>
+                    <view class="zonghe-con">
+                        <view class="zonghe-con-list clearfix">
+                            <view class="imgcontainer"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/5de0e1fe18d2e44aedf96c85657e6340.jpg"></image></view>
+                            <view class="zonghe-right">
+                                <text class="a">苏州吊车出租多少钱，苏州吊车租赁是怎样收取费用的</text>
+                                <text class="zonghe-con-font"> 苏州起重吊装行业在平时中能够好的为广大市民提供方便,但是在行业中也存有很多的定价乱象,那么,苏州吊车租赁有哪些价格乱象呢,苏州吊车租聘实际价格是多少呢?详细情况的话请大家认真阅读下文...</text>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="zonghe-con">
+                        <view class="zonghe-con-list clearfix">
+                            <view class="imgcontainer"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/5de0e1fe18d2e44aedf96c85657e6340.jpg"></image></view>
+                            <view class="zonghe-right">
+                                <text class="a">苏州吊车出租多少钱，苏州吊车租赁是怎样收取费用的</text>
+                                <text class="zonghe-con-font"> 苏州起重吊装行业在平时中能够好的为广大市民提供方便,但是在行业中也存有很多的定价乱象,那么,苏州吊车租赁有哪些价格乱象呢,苏州吊车租聘实际价格是多少呢?详细情况的话请大家认真阅读下文...</text>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="zonghe-con">
+                        <view class="zonghe-con-list clearfix">
+                            <view class="imgcontainer"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/5de0e1fe18d2e44aedf96c85657e6340.jpg"></image></view>
+                            <view class="zonghe-right">
+                                <text class="a">苏州吊车出租多少钱，苏州吊车租赁是怎样收取费用的</text>
+                                <text class="zonghe-con-font"> 苏州起重吊装行业在平时中能够好的为广大市民提供方便,但是在行业中也存有很多的定价乱象,那么,苏州吊车租赁有哪些价格乱象呢,苏州吊车租聘实际价格是多少呢?详细情况的话请大家认真阅读下文...</text>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="zonghe-con">
+                        <view class="zonghe-con-list clearfix">
+                            <view class="imgcontainer"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/5de0e1fe18d2e44aedf96c85657e6340.jpg"></image></view>
+                            <view class="zonghe-right">
+                                <text class="a">苏州吊车出租多少钱，苏州吊车租赁是怎样收取费用的</text>
+                                <text class="zonghe-con-font"> 苏州起重吊装行业在平时中能够好的为广大市民提供方便,但是在行业中也存有很多的定价乱象,那么,苏州吊车租赁有哪些价格乱象呢,苏州吊车租聘实际价格是多少呢?详细情况的话请大家认真阅读下文...</text>
+                            </view>
+                        </view>
+                    </view>
+                </swiper-item>
+
+            </swiper>
+            <view class="clear"></view>
+        </view>
+    </view>
+    <template is="liuyan"  data="{{showModal:showModal}}" />
+    <!--新闻end-->
+    <template is="footer"  />
+</view>
