@@ -6,12 +6,12 @@
                     <view class="zxHdImg">
                         <image src="https://m.u88.com/mobile/images/hdimg2.jpg"></image>
                     </view>
-                    <view class="zxHdName" catchtap="makePhoneCall"  data-phoneNumber="175-0618-2888">
+                    <view class="zxHdName" catchtap="makePhoneCall"  data-phoneumber="175-0618-2888">
                         <view class="zxHdName-peo">苏州皓全吊车起重</view>
                         <view class="pblock">在线客服<text>联系她</text></view>
                     </view>
                 </view>
-                <view class="mfcall js_popup" catchtap="makePhoneCall"  data-phonenumber="175-0618-2888">立即通话</view>
+                <view class="mfcall js_popup" catchtap="makePhoneCall"  data-phoneumber="175-0618-2888">立即通话</view>
                 <view class="mfcsain js_popup" catchtap="telSubmit" >在线留言</view>
             </view>
         </view>

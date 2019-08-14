@@ -34,6 +34,8 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    baseUrl:'https://www.szhqzl.cn/api/',
+    baseName:'安心加盟网',
   }
 })
