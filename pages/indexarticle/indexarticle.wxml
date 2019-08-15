@@ -2,11 +2,24 @@
 <import src="/templets/header.wxml" />
 <import src="/templets/footer.wxml" />
 <import src="/templets/liuyan.wxml" />
+<import src="/wxParse/wxParse.wxml"/>
 <view class="container">
     <template is="header"  />
     <view class="bg-primary">
         <icon  type="info"  class="small-default" iconSize="20" color="#fff" size="14" />
-        <text>12T-500T全品类吊车租赁服务</text>
+        <text>{{thisarticleinfos.typename}}</text>
+    </view>
+    <view class="list_middle">
+        <view class="a_content_brand">
+            <view class="a_content">
+                <view class="h1">{{thisarticleinfos.typename}}</view>
+                <view>
+                    <view class="wxParser">
+                        <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+                    </view>
+                </view>
+            </view>
+        </view>
     </view>
     <template is="liuyan"  data="{{showModal:showModal}}" />
     <!--新闻end-->

@@ -11,33 +11,19 @@
     <view class="viewst_middle">
         <view class="text_centre">
             <view>
-                <view class="li-target">
-                    <view class="a-target">
-                        <view class="img_show"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/ac609dc8d70b64bba24381aa5a539a95.jpg" class="img_viewst"></image></view>
-                        <view class="cont">
-                            <view class="tit_1">吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都</view>
-                            <view class="info">吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都</view>
+                <block wx:for="{{thisarticleinfos}}" wx:key="idx" wx:for-item="listarticle">
+                    <view class="li-target" >
+                        <view class="a-target">
+                            <navigator url="/pages/article/article?id={{listarticle.id}}">
+                                <view class="img_show"><image src="{{listarticle.litpic}}" class="img_viewst"></image></view>
+                                <view class="cont">
+                                    <view class="tit_1">{{listarticle.title}}</view>
+                                    <view class="info">{{listarticle.description}}</view>
+                                </view>
+                            </navigator>
                         </view>
                     </view>
-                </view>
-                <view class="li-target">
-                    <view class="a-target">
-                        <view class="img_show"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/ac609dc8d70b64bba24381aa5a539a95.jpg" class="img_viewst"></image></view>
-                        <view class="cont">
-                            <view class="tit_1">吊车操作的一些小技巧需知你都</view>
-                            <view class="info">吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都</view>
-                        </view>
-                    </view>
-                </view>
-                <view class="li-target">
-                    <view class="a-target">
-                        <view class="img_show"><image src="https://www.szhqzl.cn/storage/uploads/image/2019/08/05/ac609dc8d70b64bba24381aa5a539a95.jpg" class="img_viewst"></image></view>
-                        <view class="cont">
-                            <view class="tit_1">吊车操作的一些小技巧需知你都</view>
-                            <view class="info">吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都吊车操作的一些小技巧需知你都</view>
-                        </view>
-                    </view>
-                </view>
+                </block>
             </view>
         </view>
     </view>

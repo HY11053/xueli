@@ -3,8 +3,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  /*align-items: center;*/
   box-sizing: border-box;
 }
 .clear{clear: both;}
@@ -17,7 +16,6 @@
 .lunbo swiper{height:350rpx;}
 .lunbo swiper .swiper-item{  display: block;  height: 350rpx;}
 .slide-image{width: 100%;height: 350rpx;}
-
 .bottom-view{background: #ffffff;}
 .zxnavbarcon {background: #ffffff;	height: 120rpx;	position: fixed;	bottom: 0;	left: 0;	width: 100%;	/* padding-left: 0.13333333rem;*/}
 .zxnavbarcon .zxHdImgcons {	background: #fff;	width: 55.99%;	height:116rpx; padding-left: 1%;	float: left;	padding-top: 8rpx;	-webkit-appearance:none;	border:0;}

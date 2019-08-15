@@ -1,1 +1,53 @@
 /* pages/indexarticle/indexarticle.wxss */
+@import "/wxParse/wxParse.wxss";
+.a_content_brand{width: 100%;}
+.a_content {
+    padding: 0rpx 20rpx;
+    font-size: 24rpx;
+    word-wrap: break-word;
+    word-break: break-all;
+    color: #383835;
+    text-align: justify;
+    line-height: 36rpx;
+    font-family: "Microsoft YaHei", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+.a_content .h1 {
+    font-size: 36rpx;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Microsoft YaHei",Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 95rpx;
+}
+.a_content .small {
+    display: block;
+    margin-bottom: 10;
+    padding-bottom: 20rpx;
+    line-height: 20px;
+    text-align: center;
+    font-size: 24rpx;
+    color: #999;
+    border-bottom: 1px solid #ddd;
+    margin-top: 10rpx;
+}
+.wxParser-img{width: 100%; border-radius: 25rpx;}
+ .wxParser .wxParse-p{
+    word-wrap: break-word;
+    word-break: break-all;
+    color: #383835;
+    text-align: justify;
+    line-height: 1.6;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
+    font-size: 30rpx;
+    margin: 17rpx 0;
+}
+.wxParser .wxParser-h2 view.wxParserText  text{
+    border-left: 4rpx solid #ff552e;
+    padding: 0 6rpx 0 0;
+    padding-left: 5rpx;
+    height: 70rpx;
+    font-weight: bold;
+    margin-bottom: 20rpx;
+    color: #ff552e !important;
+}
+.list_middle{margin-bottom: 100rpx;}
