@@ -6,7 +6,7 @@
     <template is="header"  />
     <view class="bg-primary">
         <icon  type="info"  class="small-default" iconSize="20" color="#fff" size="14" />
-        <text>12T-500T全品类吊车租赁服务</text>
+        <text>{{typeinfos.typename}}</text>
     </view>
     <view class="viewst_middle">
         <view class="text_centre">

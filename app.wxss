@@ -77,7 +77,6 @@
   width: 30rpx;
   height: 30rpx;
   display: block;
-  background: url(./images/title-zxly.png) no-repeat center;
   background-size:30rpx;
   margin-right: 14rpx;
 }
@@ -87,6 +86,7 @@
   line-height: 40rpx;
   font-weight: bold;
   text-align: center;
+  overflow: visible;
 }
 
 #item52 .item5box .lysm{
@@ -135,6 +135,7 @@
   position: relative;
   height: 60rpx;
   box-sizing: border-box;
+  overflow: visible;
 }
 #item52 .item5box .inputbox .tip{
   display: none;

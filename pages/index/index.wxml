@@ -25,13 +25,13 @@
         </view>
         <view class="im-container">
             <view class="imageflx" catchtap="makePhoneCall" data-phonenumber="17506182888"> <image src="/images/ys01.jpg"></image><view class="h5">25T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
-            <view class="imageflx" catchtap="makePhoneCall" data-phonenumber="17506182888"> <image src="/images/ys01.jpg"></image><view class="h5">35T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
-            <view class="imageflx" catchtap="makePhoneCall" data-phonenumber="17506182888"> <image src="/images/ys01.jpg"></image><view class="h5">55T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
+            <view class="imageflx" catchtap="makePhoneCall" data-phonenumber="17506182888"> <image src="/images/ys02.jpg"></image><view class="h5">35T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
+            <view class="imageflx" catchtap="makePhoneCall" data-phonenumber="17506182888"> <image src="/images/ys03.jpg"></image><view class="h5">55T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
         </view>
         <view class="im-container">
-            <view class="imageflx" catchtap="makePhoneCall" data-phonenumber="17506182888"> <image src="/images/ys01.jpg"></image><view class="h5">70T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
-            <view class="imageflx" catchtap="makePhoneCall" data-phonenumber="17506182888"> <image src="/images/ys01.jpg"></image><view class="h5">80T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
-            <view class="imageflx" catchtap="makePhoneCall" data-phonenumber="17506182888"> <image src="/images/ys01.jpg"></image><view class="h5">120T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
+            <view class="imageflx" catchtap="makePhoneCall" data-phonenumber="17506182888"> <image src="/images/ys04.jpg"></image><view class="h5">70T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
+            <view class="imageflx" catchtap="makePhoneCall" data-phonenumber="17506182888"> <image src="/images/ys05.jpg"></image><view class="h5">80T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
+            <view class="imageflx" catchtap="makePhoneCall" data-phonenumber="17506182888"> <image src="/images/ys05.jpg"></image><view class="h5">120T吊车租赁</view><view class="pstyle">即刻租赁</view>  </view>
         </view>
     </view>
     <view class="cp-show">

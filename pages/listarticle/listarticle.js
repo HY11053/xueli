@@ -127,6 +127,19 @@ Page({
         console.log('错误信息：' + err.errMsg);
       }
     });
+    //品牌列表
+    wx.request({
+      url: app.globalData.baseUrl+"indexarticle/?realpath="+that.data.realpath, //请求地址
+      method: 'GET',
+      dataType: 'json',
+      success: function (res) {
+        that.setData({ typeinfos:res.data });
+      },
+      fail: function (err) {
+        console.log('错误码：' + err.errCode);
+        console.log('错误信息：' + err.errMsg);
+      }
+    });
   },
 
   /**
